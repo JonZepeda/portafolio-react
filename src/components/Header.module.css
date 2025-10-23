@@ -1,0 +1,27 @@
+.header {
+    background-color: #132440;
+    color: white;
+    padding: 1.5rem;
+
+    display: flex; /* activa flexbox */
+    justify-content: space-between; /* separa los elementos */
+    align-items: center; /* los alinea verticalmente */
+}
+
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navList {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.navList li a {
+    color: white;
+    text-decoration: none;
+}

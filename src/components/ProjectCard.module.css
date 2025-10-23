@@ -1,0 +1,42 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card a {
+    color: #1e40af;
+    text-decoration: none;
+    font-weight: bold;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* transición suave */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* se eleva un poco */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}

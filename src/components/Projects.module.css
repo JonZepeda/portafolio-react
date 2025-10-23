@@ -1,0 +1,31 @@
+.projects {
+    padding: 2rem;
+}
+
+.projects__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+/* Para pantallas pequeñas */
+@media (max-width: 768px) {
+    .projects__grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.fadeIn {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.8s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

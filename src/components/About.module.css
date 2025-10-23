@@ -1,0 +1,55 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.about__photo {
+    width: 200px;
+    border-radius: 50%;
+}
+.about__photo {
+    border: 3px solid #1e40af;
+    transition: transform 0.3s ease;
+}
+
+.about__photo:hover {
+    transform: scale(1.05);
+}
+
+
+.about__text {
+    max-width: 600px;
+}
+
+.about__text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about__text p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+    }
+}
+
+.fadeIn {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.8s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
